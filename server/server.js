@@ -1,4 +1,4 @@
-const port = 3000;
+const port = 3001;
 
 var express = require ('express');
 var bodyParser = require('body-parser');
@@ -31,7 +31,7 @@ app.listen(port, () => {
     console.log('Started on port ' + port);
 });
 
-
+module.exports = {app};
 
 /*
 var newTodo = new Todo({
